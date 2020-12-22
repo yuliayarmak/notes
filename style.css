@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.a{
+    display: none;
+}
+
+#leftSide{
+    background: #131313;;
+    height: 100%;
+    width: 400px;
+    position: fixed;
+}
+
+#rightSide {
+    background:#1F1F1F;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+#newrightSide{
+    background:#1F1F1F;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.note{
+    width: 400px;
+    height: 50px;
+    border-bottom-width: 1px;
+    border-bottom-color: #4B4A49;
+    border-bottom-style: solid;
+}
+
+.note:hover {
+    background: #FFC900;
+}
+
+.active {
+    display: block;
+}
+
+
+#noteName{
+    padding-top: 7px;
+    margin-left: 30px;
+}
+
+#text {
+    color: white;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: -3px;
+}
+
+#dateText{
+    color: #E9E9E9;
+    font-size: 10px;
+}
+
+#noteText{
+    padding-left: 400px;
+    color: white;
+}
+
+#noteName {
+    font-weight: bold;
+}
+
+#userText{
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+#date{
+   padding-left: 700px
+}
+
+#noteDate {
+    color: #666665;
+    font-size: 13px;
+}
+
+#userText{
+    background: #1F1F1F;
+    color: #E9E9E9 ;
+    border: none;
+    width: 820px;
+    height: 490px;
+    outline: none;
+    resize: none;
+}
+
+#features{
+    padding-left: 430px;
+}
+
+.buttonStyle{
+    background: none;
+    color: #FFC900;
+    border: none;
+    outline: none;
+}
+
+.buttonStyle:hover {
+    color: grey;
+}
+
+#add {
+    margin-left: 730px;
+    /* outline: none; */
+}
+
+/* #delete {
+    outline: none;
+} */
+
+/* #add:hover{
+    color: grey;
+}
+
+#delete:hover{
+    color: grey;
+} */
