@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <title>Document</title>
+</head>
+<body>
+ <div class='d'>
+    <div id='rightSide'>
+      <div class='a' id='d1' >
+        <div id='date'>
+            <p id='noteDate'>23 декабря 2020 г</p>
+        </div>
+        <div id='noteText'>
+            <textarea id = 'userText' onclick="change()">Here you can add your notes.</textarea>
+        </div>
+        <div id='features'>
+            <button id='add' class= 'buttonStyle'>add</button>
+            <button id='done' class= 'buttonStyle'>Done</button>
+        </div>
+     </div>
+   </div>
+</div>
+<div class='b'>
+    <div id='leftSide'>
+        <div class='note' id='1'>
+            <div id='noteName'>
+                <div id='main'>
+                    <p class='text'>New Note</p>
+                    <button id='delete' class= 'buttonStyle-del' onclick='remove(1)'>delete</button>
+                </div>
+                <p id='dateText'>24.09.2020</p>
+            </div>
+        </div>
+    </div>
+</div>
+ </div>
+</body>
+<script src="js.js"></script>
+</html>
